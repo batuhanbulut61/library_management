@@ -18,7 +18,6 @@ import static org.junit.jupiter.api.Assertions.fail;
 /**
  * INTEGRATION TEST - Repository Layer
  */
-@Disabled
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 class BookRepositoryIT extends AbstractIntegrationTest {
